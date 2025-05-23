@@ -25,7 +25,7 @@
                         <input type="text" id="name" name="name" value="{{ $permission->name ?? old('name') }}" 
                             class="block w-full rounded-md border-gray-300 shadow-sm focus:border-emerald-500 focus:ring-emerald-500 sm:text-sm" 
                             placeholder="ex: users.create" required>
-                        <p class="mt-1 text-xs text-gray-500">Format recommandé : [entité].[action]</p>
+                        <p class="mt-1 text-xs text-gray-500">Format exemple : [models].[action]</p>
                         @error('name')
                             <p class="mt-1 text-sm text-red-600">{{ $message }}</p>
                         @enderror
