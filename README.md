@@ -16,4 +16,14 @@ Vous pouvez aller sur :
 ```bash
 composer require ameth/diamanka
 
+```
+## Publication service provider
+```bash
+php artisan vendor:publish --provider="Ameth\\Diamanka\\Providers\\DiamankaServiceProvider"
+
+```
+## Publication views
+```bash
+php artisan vendor:publish --tag="views"
+
 
