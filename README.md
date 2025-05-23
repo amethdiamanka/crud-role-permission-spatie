@@ -10,6 +10,7 @@ Vous pouvez aller sur :
 -  /diamanka/permissions (pour voir la liste des permissions)
 -  /diamanka/roles/create (pour la création des roles)
 -  /diamanka/roles (pour voir la liste des roles)
+Vous devez lancer npm run dev pour un affichage correcte des views
 
 
 ## Installation
