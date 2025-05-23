@@ -1,0 +1,36 @@
+{
+    "name": "ameth/diamanka",
+    "type": "library",
+    "license": "MIT",
+    "description": "Gestion des rôles/permissions avec Spatie pour Laravel",
+    "keywords": [
+        "laravel",
+        "package",
+        "spatie"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ameth\\Diamanka\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ameth diamanka",
+            "email": "amethdiamanka@gmail.com"
+        }
+    ],
+    "require": {
+         "php": "^8.2",
+        "laravel/framework": "^12.0",
+        "spatie/laravel-permission": "^6.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ameth\\Diamanka\\Providers\\DiamankaServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -1,2 +1,7 @@
-# crud-role-permission-after-spatie
-Allows you to do the crud of roles and permissions after installing the laravel-permission spatie package
+# Laravel Diamanka
+
+Gestion avancée des rôles et permissions pour Laravel.
+
+## Installation
+```bash
+composer require ameth/diamanka
